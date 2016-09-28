@@ -31,8 +31,8 @@
         <a class="navbar-brand" href="https.//www.websitedev.com"> WebsiteDevelopment </a>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html"> Home </a></li>
-            <li ><a href="about.html"> About </a></li>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="about.html"> About </a></li>
             <li class="drop-down">
               <a href="learn.html" class="dropdown-toggle" data-toggle="dropdown">Learn
               <b class="caret"></b>
@@ -48,34 +48,70 @@
       </nav>
       
       <div class="container">
-        <div class="jumbotron text-center">
-          <h1> Hello World </h1>
-          <p> I am Renz Adanza Stark, I am incredibly awesome, that's what they said! </p>
-          </div>
-          </div>
-          
+            <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                  <li data-target="mycarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="mycarousel" data-slide-to="1"></li>
+                  <li data-target="mycarousel" data-slide-to="2"></li>
+                </ol>
+      
+                <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="img/1.jpg">
+                   <div class="carousel-caption">
+                      <h1> Theme 1 </h1>
+                    </div>
+                  </div>
+                 <div class="item">
+                    <img src="img/2.jpg">
+                    <div class="carousel-caption">
+                      <h1> Theme 2 </h1>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/3.jpg">
+                    <div class="carousel-caption">
+                      <h1> Theme 3 </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
           <div class="page-header">
-            <h1> Button </h1>
-            </div>
-             <p>      
-               <button type=button class="btn btn-default"> Default</button>
-               <button type=button class="btn btn-success"> Success</button>
-               <button type=button class="btn btn-info"> Info</button>
-               <button type=button class="btn btn-warning"> Warning</button>
-               <button type=button class="btn btn-danger"> Danger</button>
-               <button type=button class="btn btn-link"> Link </button>
-             </p>
-             
-             <p>
-               <button type=button class="btn-sm btn-default"> Default</button>
-               <button type=button class="btn-sm btn-success"> Success</button>
-               <button type=button class="btn-sm btn-info"> Info</button>
-               <button type=button class="btn-sm btn-warning"> Warning</button>
-               <button type=button class="btn-sm btn-danger"> Danger</button>
-               <button type=button class="btn-sm btn-link"> Link </button>
-             </p>
+            <h1> Image </h1>
             </div>
             
+            
+   
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="#" class="thumbnail">
+            <img src="img/A.png" width="250" height="250" aLT="c++ tutorial">
+          </a>
+          <h3>C++</h3>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </div>
+      
+   
+        <div class="col-sm-4">
+           <img src="img/C.png" width="250" height="250" aLT="c++ tutorial">
+          </a>
+          <h3>JAVA</h3>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </div>
+      
+   
+        <div class="col-sm-4">
+           <img src="img/B.png" width="250" height="250" aLT="c++ tutorial">
+          </a>
+          <h3>HTML</h3>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </div>
+ </div>
+      </div> 
+      
+    
             <div class="navbar navbar-default navbar-fixed-buttom">
               <div class="container">
                 <div class="navbar-text pull-left">
@@ -83,6 +119,8 @@
           </div>      
         </div> 
      </div>
+    
+      
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
